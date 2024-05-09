@@ -6,11 +6,11 @@ This is a simple chatbot implemented in Python using PyTorch. The chatbot can re
 
 ### Data Preparation
 
-The chatbot is trained on a JSON file containing intents. Each intent consists of a tag, patterns (user input), and responses. The data is preprocessed by tokenizing the input sentences, stemming the words, and converting them to a bag of words representation.
+The chatbot is trained on a JSON file containing intents (`intents.json`). Each intent consists of a tag, patterns (user input), and responses. The data is preprocessed by tokenizing the input sentences, stemming the words, and converting them to a bag of words representation.
 
 ### Model Training
 
-A neural network model is trained using PyTorch. The model consists of an input layer, multiple hidden layers, and an output layer. The training process involves forward and backward passes, optimizing the weights using Adam optimizer, and minimizing the cross-entropy loss.
+A neural network model is trained using PyTorch (`train.py`). The model consists of an input layer, multiple hidden layers, and an output layer. The training process involves forward and backward passes, optimizing the weights using Adam optimizer, and minimizing the cross-entropy loss.
 
 ### Model Architecture
 
